@@ -13,7 +13,7 @@ module.exports = {
         path: './build',
     },
     plugins: [
-        new new WatchCallbackPlugin('echo hello world!') // 以字符串形式指定操作！！！
+        new WatchCallbackPlugin('echo hello world!') // 以字符串形式指定操作！！！
     ]
 }
 ```
@@ -21,5 +21,5 @@ module.exports = {
 ```
 ...
 webpack 5.16.0 compiled with 1 warning in 3186 ms
-stdout: hello world
+stdout: hello world!
 ```
