@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:helloking000/webpack-callback-plugin.git"
   },
   "directories": {
     "example": "examples",
