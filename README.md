@@ -13,7 +13,7 @@ module.exports = {
         path: './build',
     },
     plugins: [
-        new WatchCallbackPlugin('echo hello world!') // 以字符串形式指定操作！！！
+        new WebpackCallbackPlugin('echo hello world!') // 以字符串形式指定操作！！！
     ]
 }
 ```

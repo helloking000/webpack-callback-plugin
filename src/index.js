@@ -2,7 +2,7 @@
  * See the webpack docs for more information about plugins:
  * https://webpack.js.org/contribute/writing-a-plugin/#basic-plugin-architecture
  */
-
+const { exec } = require('child_process');
 class WebpackCallbackPlugin {
     constructor(command) {
         this.command = command;
