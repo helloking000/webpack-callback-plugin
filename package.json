@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "description": "webpack plugin",
+  "name": "webpack-callback-plugin",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "keywords": [
+    "assets",
+    "js",
+    "watch",
+    "done",
+    "callback",
+    "webpack",
+    "webpack-plugin"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "webpack": "^5.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "heloking",
+  "license": "MIT"
+}
